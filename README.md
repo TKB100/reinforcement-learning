@@ -4,21 +4,7 @@ A collection of Reinforcement Learning algorithms implemented from scratch in Py
 
 ---
 
-## Project Structure
-
-```
-reinforcement-learning/
-├── hw1_bandit_distributions.py      # Multi-armed bandit: gamma distribution visualization
-├── hw1_bandit_epsilon_ucb.py        # Multi-armed bandit: epsilon-greedy vs UCB comparison
-├── hw2_gridworld_setup.py           # 10x10 gridworld maze environment setup
-├── hw2_policy_iteration.py          # Policy evaluation and policy iteration on gridworld
-├── hw3_cliff_environment.py         # Cliff walking environment setup
-└── hw3_qlearning_vs_sarsa.py        # Q-Learning vs SARSA on cliff walking environment
-```
-
----
-
-## Homework 1: Multi-Armed Bandit
+## Multi-Armed Bandit
 
 ### `hw1_bandit_distributions.py`
 Visualizes the reward distributions of a 3-arm bandit problem using gamma distributions. Plots the theoretical PDF against sampled data for each arm to understand the reward landscape before applying any strategy.
@@ -33,7 +19,7 @@ Tracks optimal action selection rate over 1000 games and plots convergence curve
 
 ---
 
-## Homework 2: Gridworld Policy Iteration
+## Gridworld Policy Iteration
 
 ### `hw2_gridworld_setup.py` / `hw2_policy_iteration.py`
 Implements policy evaluation and policy iteration on a **10×10 gridworld** with:
@@ -52,7 +38,7 @@ Generates heatmap visualizations of value functions at early, mid, and final ite
 
 ---
 
-## Homework 3: Q-Learning vs SARSA
+## Q-Learning vs SARSA
 
 ### `hw3_cliff_environment.py` / `hw3_qlearning_vs_sarsa.py`
 Implements and compares two temporal-difference learning algorithms on a **5×10 cliff walking environment**:
